@@ -14,7 +14,7 @@ jobs:
     - name: Install SSH key
       uses: shimataro/ssh-key-action@v2
       with:
-        key: ${{ secrets.7vQR1D2DIMb2ERs+ZkHAUc6gQ0ACFT6aYX3XIfSs/5Q }}
+        key: ${{ secrets.ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDaCOsGmX+gu6YJ8DSg7fb7+KAwyXMSMHkC+oyU1+eK6SXQaiHMm5zkIujVKrJBKR7OpHioaUsiEUkPcIc6MRW3zCfeJsS8zFDjEMlFZFi8uMTtpJJ82Puve/crPa/ZjahkvQuJpDxgt0g4Qqfn+y0OlMsl2qEuvGzC+ttJYwiYrmwqkLYY5ts9e+Vu88xJq4TVHWAWHX2fztfR+q7tlaGc3c9wt8ZUHvuJ+FGOYuVWFZ9O2LNyP+8AAHUCB2xejAYFTPbG8qTjOvslNUaIIRwgpLTa1wHM9VR0yY/cRKlrqF/4OupBXAl/em8YuKFMEnOF9EZrhhbWSvU0XFzhma8Z rsa-key-20230221}}
         known_hosts: " "
     - name: Add git.evennode.com to known_hosts
       run: |
